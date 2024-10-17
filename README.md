@@ -18,3 +18,7 @@
 ## 效果
 
 ![](./assets/示例.png)
+
+
+致谢：
+- 该模版参考了 [erictapen/typst-invoice](https://github.com/erictapen/typst-invoice) 的实现
