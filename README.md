@@ -1,7 +1,7 @@
 
 <p align="center">
   <picture>
-    <img alt="我，秦始皇，打钱" src="./assets/我，秦始皇.jpg" width=55%>
+    <img alt="我，秦始皇，打钱" src="./assets/我，秦始皇.png" width=55%>
   </picture>
 </p>
 
