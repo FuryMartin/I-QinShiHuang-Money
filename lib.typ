@@ -1,20 +1,13 @@
 #import "@preview/tablex:0.0.8": gridx, hlinex
 
-// Generates an invoice
 #let invoice(
   title: none,
   vice-title: none,
-  // The date on which the invoice was created
   invoice-date: "始皇帝十七年",
-  // A list of items
   items: none,
-  // The total pay, the discount and the real pay
   pay: none,
-  // Name and postal address of the recipient
   recipient: none,
-  // Optional VAT
   signature: none,
-  // 致谢
   thanks: none,
 ) = {
   set text(lang: "zh", region: "cn")
@@ -113,7 +106,6 @@
 
   align(center,[
     #set text(size: 1.2em)
-    // #bank-account.bank
     #thanks \
     #signature
   ])
