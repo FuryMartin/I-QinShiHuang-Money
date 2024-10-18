@@ -12,7 +12,7 @@
 ) = {
   set text(lang: "zh", region: "cn")
 
-  set page(paper: "a4", margin: (x: 20%, y: 20%, top: 10%, bottom: 10%))
+  set page(paper: "a4", margin: (x: 20%, y: 20%, top: 8%, bottom: 5%))
 
   show heading.where(
     level: 1
@@ -25,7 +25,7 @@
     number
   }
 
-  set text(1.6em)
+  set text(2em)
 
   align(center, smallcaps[
     #set text(size: 2.5em)
@@ -42,9 +42,8 @@
   align(left,[
     #set par(leading: 0.40em)
     #set text(size: 1em)
-    #recipient.name \ 
-    #recipient.street \
-    #recipient.city
+    #recipient.location \
+    *#recipient.name*
   ])
 
   v(0.5em)
@@ -88,25 +87,17 @@
       [], 
       align(right,[总计]),
       [#format_currency(pay.total)钱],
-      hlinex(start: 3),  
-      [],
-      align(right,[优惠]),
-      [#format_currency(pay.discount)钱],
-      hlinex(start: 3), 
-      [],
-      align(right,[实付]),
-      [#format_currency(pay.real)钱],
-      hlinex(start: 3),        
+      hlinex(start: 3),
     )
   ]
   align(center, [
-    #set text(size: 1.2em)
      *#invoice-date*
+    #set text(size: 1.2em)
   ])
 
   align(center,[
-    #set text(size: 1.2em)
     #thanks \
     #signature
+    #set text(size: 1.2em)
   ])
 }

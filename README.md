@@ -8,8 +8,8 @@
 ## 使用
 
 - VSCode 安装 [Tinymist Typst](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist) 插件
-- 编辑 `main.typ` 中的的对应字段
-- 预览 & 导出
+- 编辑 `data.json` 中的的对应字段
+- 预览 `main.typ` 并导出
 
 ## 字体
 

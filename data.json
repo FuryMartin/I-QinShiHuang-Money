@@ -1,0 +1,19 @@
+{
+    "recipient": {
+      "name": "云天明",
+      "location": "半人马座阿尔法星"
+    },
+    "items": [
+      {
+        "description": "吮指原味鸡",
+        "price": "二十"
+      },
+      {
+        "description": "热辣香骨鸡",
+        "price": "三十"
+      }
+    ],
+    "pay": {
+      "total": "五十"
+    }
+}
