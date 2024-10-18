@@ -1,6 +1,6 @@
 #set text(font: "三极小篆简")
 
-#import "lib.typ": invoice
+#import "src/lib.typ": invoice
 
 #let data = json("data.json")
 
